@@ -2,6 +2,7 @@ const { ApolloServer } = require('apollo-server');
 const { CurrencyProvider } = require('./provider/CurrencyProvider');
 const { query } = require('./query');
 const { typeDefs } = require('./types');
+require('dotenv').config({ path: '.env' });
 //const { cache } = require('./cache/RedisCache');
 
 const resolvers = {

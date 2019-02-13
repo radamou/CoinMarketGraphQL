@@ -8,6 +8,8 @@
     "apollo-server": "^2.4.0",
     "apollo-server-cache-redis": "^0.3.0",
     "apollo-server-express": "^2.4.0",
+    "dotenv": "^6.2.0",
+    "env-var": "^3.4.2",
     "express": "^4.16.4",
     "express-graphql": "^0.7.1",
     "graphql": "^14.1.1",

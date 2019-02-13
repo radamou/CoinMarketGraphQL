@@ -1,2 +1,2 @@
-exports.MARKET_URL = 'https://pro-api.coinmarketcap.com/v1/cryptocurrency';
-exports.API_KEY='APIKEY';
+exports.MARKET_URL = process.env.MARKET_URL;
+exports.API_KEY = process.env.API_KEY;
